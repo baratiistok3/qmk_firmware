@@ -1,3 +1,12 @@
-MOUSEKEY_ENABLE = no        # Mouse keys(+4700)
+MOUSEKEY_ENABLE = yes        # Mouse keys(+4700)
 STENO_ENABLE = yes          # Additional protocols for Stenography(+1700), requires VIRTSER
 TAP_DANCE_ENABLE = yes
+//UNICODE_ENABLE = yes
+//UNICODEMAP_ENABLE = yes
+COMBO_ENABLE = yes
+COMBO_ONLY_SEND_LONGEST_COMBO = yes
+BACKLIGHT_ENABLE = no
+RGBLIGHT_ENABLE	=no
+MIDI_ENABLE=	no
+UNICODE_ENABLE=	no
+BLUETOOTH_ENABLE=	no
