@@ -55,7 +55,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KC_Z, KC_X, KC_C,    KC_V,    KC_B,                                       KC_N, KC_M,    KC_COMM, KC_DOT, KC_QUOT, \
               KC_LBRC, KC_RBRC,                                                   KC_MINS, KC_EQL,                   \
                                       SFT_ESC, CTL_BSPC,  ALT_SPC, SFT_ENT,                                          \
-                                      RAISE, KC_TAB,    KC_DEL,  LOWER,                                        \
+                                      RAISE, KC_TAB,    KC_DEL,  ACCENT,                                        \
                                         LOWER,  KC_HOME,  KC_END, KC_LGUI
 ),
 
@@ -144,7 +144,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_ACCENT] = LAYOUT( \
   ____,   ____,  ____,   ____,  ____,                               ____,   ____,  ____,  ____, ____, \
-  ____,   ____,  ____,   ____,  ____,                              ____,   ____,  ____,  ____, ____,\
+  UC(0xE1),   ____,  ____,   ____,  ____,                              ____,   ____,  ____,  ____, ____,\
   ____,   ____,  ____,   ____,  ____,                               ____,   ____,  ____,   ____, ____,\
           ____,  ____,                                                            ____,  ____,        \
                                       ____, ____,  ____, ____,                                         \
